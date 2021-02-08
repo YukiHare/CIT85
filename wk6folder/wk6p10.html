@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+main {
+    height: 61.5em;
+    border: .3em dashed red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 5em;
+    border: .09em solid rgb(0, 0, 0);
+    flex-grow: 1;
+    flex-basis: 15em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font: 2em sans-serif;
+}
+#ok1 {
+    flex-basis: 50%;
+    background-color: rgb(255, 38, 0);
+}
+#ok2 {
+    flex-basis: 60%;
+    background-color: rgb(129, 210, 221);
+}
+#ok3 {
+    flex-basis: 40%;
+    background-color: rgb(76, 250, 76);
+}
+#ok4 {
+    background-color: rgb(216, 216, 44);
+}
+#ok5 {
+    background-color: rgb(87, 27, 209);
+}
+</style>
+<body>
+    <main>
+        <div id="ok1">1</div>
+        <div id="ok2">2</div>
+        <div id="ok3">3</div>
+        <div id="ok4">4</div>
+        <div id="ok5">5</div>
+    </main>
+</body>
+</html>
