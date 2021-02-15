@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, body, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+}
+a {
+    display: block;
+}
+ul {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+a {
+    padding: 2em;
+}
+ul {
+    list-style: none;
+    background: rgb(7, 85, 110);
+}
+a {
+    text-decoration: none;
+    padding: 2em 1;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-top: .2em solid rgba(104, 48, 48, 0.3);
+    border-bottom: .2em solid rgba(0,0,0,0.1);
+}
+a:hover {
+    background: rgb(0, 125, 129);
+}
+li:last-child {
+    border-bottom: none;
+    background-color: rgb(238, 142, 17);
+}
+</style>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me!</a></li>
+        <li><a href="#">Products Sold</a></li>
+        <li><a href="#">Contact me!</a></li>
+    </ul>
+</body>
+</html>
