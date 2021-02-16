@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, body, header, main, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chi {
+    height: 80px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: red;
+}
+
+main {
+    background-color: dodgerblue;
+}
+
+aside#s1 {
+    background-color: gold;
+}
+
+aside#s2 {
+    background-color: pink;
+}
+
+footer {
+    background-color: limegreen;
+}
+</style>
+<body>
+    <section>
+        <header class="chi">header</header>
+        <main class="chi">main Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum consectetur sequi quam, quibusdam illo libero inventore dolore ut ex magnam, animi tempora consequatur minima impedit earum. Animi distinctio assumenda possimus.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum accusantium dolorum aspernatur molestiae veniam ea odit eum fugiat, magni corporis velit doloribus ratione minima voluptatum possimus nemo modi obcaecati repellat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos saepe et beatae voluptatibus dicta distinctio, accusantium neque nihil sapiente ea! Eligendi fugit molestias expedita repellat officiis. Soluta consequatur in eius.
+        </main>
+        <aside id="s1" class="chi">aside1</aside>
+        <aside id="s2" class="chi">aside2</aside>
+        <footer class="chi">footer</footer>
+    </section>    
+</body>
+</html>
